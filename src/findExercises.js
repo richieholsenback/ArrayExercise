@@ -3,6 +3,10 @@ import { useStudents, useInstructors } from "./data/classroom.js";
 const students = useStudents();
 const instructors = useInstructors();
 
+export const getStudentById = id => {
+    
+}
+
 // Export a function called getStudentById
 // It should accept one integer parameter named `id`
 // It should return the student object with the matching ID
